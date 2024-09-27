@@ -189,7 +189,7 @@ const HeroSection = () => {
         {/* Container for Hero Content */}
         <div className="text-center p-10 md:px-8 lg:px-12 bg-opacity-90 bg-black rounded-3xl">
           {/* Title */}
-          <h1 className="bg-gradient-to-tr from-[#2E3192] to-[#1BFFFF] bg-clip-text text-transparent text-lg md:text-2xl font-bold mb-4">
+          <h1 className="bg-gradient-to-tr from-[#2E3192] to-[#1BFFFF] bg-clip-text text-transparent text-lg md:text-xl font-bold">
             Welcome to the solution portfolio of #TeamConnectVentures
           </h1>
           <h1 className="bg-gradient-to-r from-[#3b3bdd] to-purple-600 bg-clip-text text-transparent text-4xl md:text-6xl font-bold mb-8">
@@ -197,7 +197,7 @@ const HeroSection = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-white text-lg md:text-2xl font-light mb-6">
+          <p className="text-white text-lg md:text-xl font-bold mb-10">
             An Intelligent Platform Connecting Alumni, Students, and Faculty for Mentorship and Collaboration
           </p>
           {/* Call to Action */}
@@ -209,12 +209,19 @@ const HeroSection = () => {
               Explore the Solution
             </a>
             <a
-              href="https://drive.google.com/drive/folders/1i9t58CDpzznwaBM7PihydlfUCPFqdqdd"
-              target="_blank"
+              href="#snaps"
               rel="noopener noreferrer"
               className="bg-gray-200 text-[#000080] w-full md:w-auto px-6 py-2 rounded-lg text-lg md:text-xl font-semibold shadow-lg hover:bg-blue-100 transition duration-300"
             >
               View Screenshots Of The Portal
+            </a>
+            <a
+              href="https://youtu.be/3aUhNsDomR8"
+              target='blank'
+              rel="noopener noreferrer"
+              className="bg-gray-200 text-[#000080] w-full md:w-auto px-6 py-2 rounded-lg text-lg md:text-xl font-semibold shadow-lg hover:bg-blue-100 transition duration-300"
+            >
+              YouTube
             </a>
           </div>
         </div>
