@@ -21,7 +21,7 @@ const OverviewSection = () => {
 
     return (
         <section id='overview'>
-            <div className="bg-gradient-to-r from-green-400 to-blue-500 py-20">
+            <div className="bg-gradient-to-br from-green-400 to-blue-500 py-20">
                 {/* Container for Overview Content */}
                 <div className="max-w-6xl mx-auto text-center px-4 md:px-8 lg:px-12">
                     {/* Section Heading */}

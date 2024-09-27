@@ -36,10 +36,10 @@ const KeyFeaturesSection = () => {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-r from-[#C33764] to-[#1D2671]">
+    <section id='keyfeatures' className="py-16 md:py-24 bg-gradient-to-tr from-[#2E3192] to-[#1BFFFF]">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         {/* Section Heading */}
-        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-400 text-center mb-12">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-700 text-center mb-12">
           Key Features
         </h2>
         

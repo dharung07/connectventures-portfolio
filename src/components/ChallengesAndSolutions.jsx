@@ -33,7 +33,7 @@ const ChallengesAndSolutionsTable = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-r from-[#93A5CF] to-[#E4EfE9] py-16 md:py-24 bg-gray-50">
+    <section className="bg-gradient-to-r from-[#93A5CF] to-[#E4EfE9] pb-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         {/* Section Heading */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-600 text-center mb-12">

@@ -1,6 +1,4 @@
 import React from 'react';
-import { FaGamepad, FaLock, FaBrain } from 'react-icons/fa';
-import { SiTensorflow } from 'react-icons/si';
 
 const GamifiedRBACAISection = () => {
     const features = [
@@ -27,10 +25,10 @@ const GamifiedRBACAISection = () => {
     ];
 
     return (
-        <section className="py-16 md:py-24 bg-gradient-to-r from-blue-500 to-purple-600">
+        <section className="py-16 md:py-24 bg-gradient-to-tr from-[#2E3192] to-[#1BFFFF]">
             <div className="max-w-7xl mx-auto px-4 md:px-8">
                 {/* Section Heading */}
-                <h2 className="text-4xl md:text-5xl font-extrabold text-gray-300 text-center mb-12">
+                <h2 className="text-4xl md:text-5xl font-extrabold text-gray-700 text-center mb-12">
                     Gamified RBAC & AI Integration
                 </h2>
 

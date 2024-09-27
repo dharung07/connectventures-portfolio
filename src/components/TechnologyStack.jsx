@@ -44,20 +44,11 @@ const TechnologyStack = () => {
             description: "A digital wallet for interacting with decentralized applications on the Ethereum blockchain.",
             icon: <FaLock className="text-4xl text-yellow-600 transition-transform duration-300 group-hover:scale-110" />
         },
-        {
-            name: "Authorization (RBAC)",
-            description: "Role-Based Access Control (RBAC) for managing user permissions.",
-            icon: <FaKey className="text-4xl text-blue-600 transition-transform duration-300 group-hover:scale-110" />
-        },
-        {
-            name: "Authentication (JWT)",
-            description: "JSON Web Tokens (JWT) for secure authentication and authorization.",
-            icon: <FaKey className="text-4xl text-gray-500 transition-transform duration-300 group-hover:scale-110" />
-        }
+        
     ];
 
     return (
-        <section className="py-16 md:py-24 bg-gradient-to-r from-green-400 to-blue-500">
+        <section id='technology-stack' className="py-16 md:py-24 bg-gradient-to-tr from-[#2E3192] to-[#1BFFFF]">
             <div className="max-w-7xl mx-auto px-4 md:px-8">
                 {/* Section Heading */}
                 <h2 className="text-4xl md:text-5xl font-extrabold text-gray-700 text-center mb-12">
